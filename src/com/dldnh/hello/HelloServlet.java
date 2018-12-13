@@ -8,18 +8,6 @@ import java.net.SocketException;
 import java.util.Enumeration;
 
 public class HelloServlet extends javax.servlet.http.HttpServlet {
-//    private String ip;
-
-    public HelloServlet() {
-//        try (final DatagramSocket socket = new DatagramSocket()) {
-//            socket.connect(InetAddress.getByName("8.8.8.8"), 10002);
-//            ip = socket.getLocalAddress().getHostAddress();
-//        } catch (SocketException | UnknownHostException e) {
-//            ip = e.getLocalizedMessage();
-//            e.printStackTrace();
-//        }
-    }
-
     private String getAddress() {
         StringBuilder str = new StringBuilder();
         try {
